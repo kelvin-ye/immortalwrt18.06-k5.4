@@ -1,0 +1,37 @@
+Network  --->
+  IP Addresses and Names  --->
+    <*> ddns-scripts_dnspod. DDNS extension for Dnspod.com/Dnspod.cn
+LuCI  --->
+  3. Applications  --->
+		<*> luci-app-accesscontrol. LuCI Access Control Configuration 
+		<*> luci-app-advanced-reboot. Advanced Linksys Reboot Web UI 
+		<*> luci-app-arpbind. ARP Binding 
+		<*> luci-app-autoreboot. LuCI support for Scheduled Reboot 
+		<*> luci-app-ddns. LuCI Support for Dynamic DNS Client (ddns-scripts) 
+		[*] Include btrfs-progs 
+		[*] Include lsblk 
+		<*> luci-app-filetransfer. LuCI page for IPK upload 
+		-*- luci-app-firewall. Firewall and Portforwarding application 
+		<*> luci-app-ipsec-vpnserver-manyusers..... LuCI support for IPSec VPN Server 
+		<*> luci-app-mtwifi. LuCI support for mt wifi driver 
+		<*> luci-app-nlbwmon. Netlink based bandwidth accounting 
+		<*> luci-app-openclash. LuCI support for clash 
+		<*> luci-app-passwall. LuCI support for PassWall 
+		[*] Include rclone-webui 
+		[*] Include rclone-ng (another webui) 
+		[*] Include ChinaDNS-NG 
+		-*- Include ipt2socks 
+		[*] Include Shadowsocks Simple Obfs Plugin 
+		[*] Include ShadowsocksR Libev Client 
+		[*] Include Trojan 
+		<*> luci-app-timecontrol. LuCI support for Time Control 
+		<*> luci-app-timewol. LuCI support for Timewol 
+		<*> luci-app-ttyd. LuCI support for ttyd 
+		<*> luci-app-turboacc. LuCI support for Flow Offload / Shortcut-FE 
+		[*] Include Flow Offload 
+		[*] Include BBR CCA 
+		<*> luci-app-wol. LuCI Support for Wake-on-LAN 
+ 
+  4. Themes  --->
+    <*> luci-theme-argon. Argon Theme 
+ 
