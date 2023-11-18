@@ -5,10 +5,10 @@
 #更改lan接口后，会导致wifi无法启动
 #  wifi不自启动，最有效方法（每次修改lan接口设置都要这样改一次）：
 lan接口的“物理设置”，勾选“桥接接口”，勾选并在“自定义接口”填入：“ra0 rai0”，勾选“交换机 VLAN: "eth0.1" (lan)”
-#或者在启动项加上，需要重启两次
-  lanCheck=`uci get network.lan.ifname`
-  uci set network.lan.ifname="$lanCheck rai0 ra0"
-  uci commit
+# 或者在启动项加上，需要重启两次
+    lanCheck=`uci get network.lan.ifname`
+    uci set network.lan.ifname="$lanCheck rai0 ra0"
+    uci commit
 
 #  其它方法
 # wifi不自启动，方法一：
