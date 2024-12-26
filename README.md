@@ -1,6 +1,6 @@
-# 极路由自用
+# 极路由自用 基于24.10
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: openwrt-18.06-k5.4
+  REPO_BRANCH: openwrt-24.10
 
 
 #更改lan接口后，会导致wifi无法启动
